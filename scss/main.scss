@@ -1,0 +1,43 @@
+@import "config";
+body {
+  margin: 0;
+  padding: 0;
+
+  .block {
+    background-color: lightgray;
+    height: 100vh;
+    max-width: 100%;
+  }
+
+  .image-block {
+    @extend .block;
+    background: $background-image;
+
+    .intro-text {
+      padding-top: 20vh;
+      padding-left: 33vw;
+      #name {
+        color: $text-light;
+      }
+      #p {
+      }
+    }
+  }
+  .landing-pt2 {
+    @extend .block;
+    h1 {
+      margin-top: 0;
+    }
+  }
+  .tech-block {
+    height: 30vh;
+    background-color: $palette-vivid;
+    .tech-container {
+      margin: 0;
+      padding: 5vh 0 0 2vw;
+      h1 {
+        color: $text-light;
+      }
+    }
+  }
+}

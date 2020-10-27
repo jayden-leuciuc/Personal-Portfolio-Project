@@ -1,6 +1,6 @@
 //Color palette
 //To be used in moderation to provide eye appeal to info
-$palette-Orangey: #fc3836;
+$palette-vivid: #fc3836;
 $palette-tea: #caffd0;
 $palette-grey: #2f323a;
 
@@ -11,13 +11,4 @@ $text-light: #f9e0d9;
 //Easy background color on the eyes to be used for the majority of background
 $background-light: #f9e0d9;
 
-body {
-  margin: 0;
-  padding: 0;
-}
-.landing-pt1,
-.landing-pt2 {
-  background-color: lightgray;
-  height: 100vh;
-  width: 100%;
-}
+$background-image: url("/media/1080.jpg");

@@ -1,0 +1,24 @@
+body {
+  margin: 0;
+  padding: 0; }
+  body .block, body .image-block, body .landing-pt2 {
+    background-color: lightgray;
+    height: 100vh;
+    max-width: 100%; }
+  body .image-block {
+    background: url("/media/1080.jpg"); }
+    body .image-block .intro-text {
+      padding-top: 20vh;
+      padding-left: 33vw; }
+      body .image-block .intro-text #name {
+        color: #f9e0d9; }
+  body .landing-pt2 h1 {
+    margin-top: 0; }
+  body .tech-block {
+    height: 30vh;
+    background-color: #fc3836; }
+    body .tech-block .tech-container {
+      margin: 0;
+      padding: 5vh 0 0 2vw; }
+      body .tech-block .tech-container h1 {
+        color: #f9e0d9; }
