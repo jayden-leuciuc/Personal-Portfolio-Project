@@ -12,3 +12,7 @@ $text-light: #f9e0d9;
 $background-light: #f9e0d9;
 
 $background-image: url("/media/1080.jpg");
+
+@mixin easeOut {
+  transition: all 0.5s ease-out;
+}
