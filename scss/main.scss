@@ -61,9 +61,16 @@ body {
         font-family: sans-serif;
         font-size: 2rem;
       }
-      #x:hover {
+      a {
+        text-decoration: none;
+        color: $text-light;
+      }
+      a:hover {
         color: black;
         cursor: pointer;
+      }
+      #comma {
+        animation: typist 2.5s ease 0s infinite;
       }
     }
   }
