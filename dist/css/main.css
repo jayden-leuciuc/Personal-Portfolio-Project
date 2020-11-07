@@ -42,9 +42,9 @@ body {
         color: #f7f0ee;
         font-size: 2rem; }
       body .image-block .intro-text #spanL {
-        animation: spanimation1 7s ease-out 0s infinite; }
+        animation: spanimation1 5s ease-out 0s infinite; }
       body .image-block .intro-text #spanR {
-        animation: spanimation2 7s ease-out 0s infinite; }
+        animation: spanimation2 5s ease-out 0s infinite; }
   body .barrier-block {
     padding: 1.5vh;
     background-color: #090a0a;
@@ -101,6 +101,48 @@ body {
       margin: 0;
       height: 100%;
       background-color: #fc3836; }
+      body .tech-block .info-section .html-block {
+        visibility: hidden;
+        max-height: 100%;
+        position: absolute; }
+        body .tech-block .info-section .html-block.show {
+          visibility: visible; }
+      body .tech-block .info-section .css-block {
+        visibility: hidden;
+        max-height: 100%;
+        position: absolute; }
+        body .tech-block .info-section .css-block.show {
+          visibility: visible; }
+      body .tech-block .info-section .js-block {
+        visibility: hidden;
+        max-height: 100%;
+        position: absolute; }
+        body .tech-block .info-section .js-block.show {
+          visibility: visible; }
+      body .tech-block .info-section .node-block {
+        visibility: hidden;
+        max-height: 100%;
+        position: absolute; }
+        body .tech-block .info-section .node-block.show {
+          visibility: visible; }
+      body .tech-block .info-section .sass-block {
+        visibility: hidden;
+        max-height: 100%;
+        position: absolute; }
+        body .tech-block .info-section .sass-block.show {
+          visibility: visible; }
+      body .tech-block .info-section .react-block {
+        visibility: hidden;
+        max-height: 100%;
+        position: absolute; }
+        body .tech-block .info-section .react-block.show {
+          visibility: visible; }
+      body .tech-block .info-section .git-block {
+        visibility: hidden;
+        max-height: 100%;
+        position: absolute; }
+        body .tech-block .info-section .git-block.show {
+          visibility: visible; }
     body .tech-block h1 {
       margin: 0; }
   body .projects-block {
