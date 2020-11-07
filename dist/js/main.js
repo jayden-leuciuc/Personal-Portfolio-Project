@@ -73,6 +73,7 @@ function toggleSass() {
        jsInfo.classList.remove("show");
        nodeInfo.classList.remove("show");
        sassInfo.classList.toggle("show");
+       reactInfo.classList.remove("show");
        gitInfo.classList.remove("show");
 }
 
