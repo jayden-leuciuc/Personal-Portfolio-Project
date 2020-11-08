@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@250&display=swap");
 @keyframes spanimation1 {
   0% {
     color: #f7f0ee; }
@@ -10,48 +11,62 @@
     color: #f7f0ee; }
   100% {
     margin-left: 0;
-    color: #1c0f13; } }
+    color: #090a0a; } }
 
 @keyframes typist {
   0% {
     color: #f7f0ee; }
   50% {
-    color: #79a797; }
+    color: #4a7c6b; }
   100% {
     color: #f7f0ee; } }
 
 body {
+  font-family: "Raleway", sans-serif;
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  /*.projects-block {
+    background-color: lightblue;
+    height: 50vh;
+    .projects-container {
+      h1 {
+        margin: 0;
+      }
+      max-width: 100%;
+      .project1 {
+        background-color: black;
+        height: 50vh;
+        width: 50%;
+      }
+    }
+  }*/ }
   body .block, body .image-block {
-    background-color: lightgray;
     height: 100vh;
     max-width: 100%; }
   body .image-block {
-    background: url("/media/1080.jpg"); }
+    background: url("/media/bg-blur.jpg"); }
     body .image-block .intro-text {
       padding-top: 20vh;
       padding-left: 33vw; }
       body .image-block .intro-text h1 {
         color: #f7f0ee;
         font-size: 5rem;
-        margin-bottom: 0;
-        font-family: Helvetica; }
+        margin-bottom: 0; }
       body .image-block .intro-text p {
-        font-family: Helvetica;
         color: #f7f0ee;
+        font-weight: bolder;
         font-size: 2rem; }
       body .image-block .intro-text #spanL {
         animation: spanimation1 5s ease-out 0s infinite; }
       body .image-block .intro-text #spanR {
         animation: spanimation2 5s ease-out 0s infinite; }
   body .barrier-block {
-    padding: 1.5vh;
+    padding: 0.5rem;
     background-color: #090a0a;
     max-width: 100%; }
   body .about-me-block {
     max-width: 100%;
-    background-color: #79a797; }
+    background-color: #4a7c6b; }
     body .about-me-block .text-container {
       height: 100%;
       color: #f7f0ee; }
@@ -62,7 +77,6 @@ body {
       body .about-me-block .text-container p {
         padding: 0 10vw 0 10vw;
         text-align: center;
-        font-family: sans-serif;
         font-size: 2rem; }
       body .about-me-block .text-container .links-other {
         text-align: center; }
@@ -74,30 +88,33 @@ body {
         color: black;
         cursor: pointer; }
       body .about-me-block .text-container #comma {
-        animation: typist 2.5s ease 0s infinite; }
+        animation: typist 1.5s ease 0s infinite; }
   body .tech-block {
     background-color: #fc3836;
-    height: 30vh; }
+    height: 15rem;
+    color: #f7f0ee; }
     body .tech-block .tech-section {
       background-color: #fc3836;
       float: left;
       width: 50%;
-      height: 100%;
       margin: 0; }
       body .tech-block .tech-section .textNIcons {
-        padding: 5vh 0 0 3vw; }
+        padding-left: 3rem;
+        margin: 0;
+        height: 100%; }
         body .tech-block .tech-section .textNIcons h1 {
           font-size: 3.75rem;
-          font-family: sans-serif;
-          margin: 0; }
+          padding-top: 2rem;
+          margin: 0;
+          color: #f7f0ee; }
       body .tech-block .tech-section .icons {
         text-decoration: none;
         padding-left: 1rem; }
         body .tech-block .tech-section .icons i {
-          color: #1c0f13;
+          color: #f7f0ee;
           font-size: 2.75rem; }
         body .tech-block .tech-section .icons i:hover {
-          color: white; }
+          color: #1c0f13; }
     body .tech-block .info-section {
       float: right;
       width: 50%;
@@ -146,10 +163,8 @@ body {
         position: absolute; }
         body .tech-block .info-section .git-block.show {
           visibility: visible; }
-    body .tech-block h1 {
-      margin: 0; }
-  body .projects-block {
-    background-color: lightblue;
-    height: 50vh; }
-    body .projects-block h1 {
-      margin: 0; }
+      body .tech-block .info-section h1 {
+        font-size: 2rem; }
+      body .tech-block .info-section p {
+        padding-right: 6rem;
+        font-size: 1.5rem; }

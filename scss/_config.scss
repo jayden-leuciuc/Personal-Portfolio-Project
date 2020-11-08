@@ -1,7 +1,7 @@
 //Color palette
 //To be used in moderation to provide eye appeal to info
 $palette-vivid: #fc3836;
-$palette-tea: #79a797;
+$palette-tea: #4a7c6b;
 $palette-grey: #090a0a;
 
 //Colors not as vivid that provide a solid, readable text color
@@ -11,7 +11,11 @@ $text-light: #f7f0ee;
 //Easy background color on the eyes to be used for the majority of background
 $background-light: #f9e0d9;
 
-$background-image: url("/media/1080.jpg");
+$background-image: url("/media/bg-blur.jpg");
+
+//Skinny font
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@250&display=swap");
+$primary-font: "Raleway", sans-serif;
 
 @mixin easeOut {
   transition: all 0.5s ease-out;
@@ -34,7 +38,7 @@ $background-image: url("/media/1080.jpg");
 
   100% {
     margin-left: 0;
-    color: $text-dark;
+    color: $palette-grey;
   }
 }
 
