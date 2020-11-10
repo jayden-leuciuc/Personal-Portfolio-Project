@@ -1,0 +1,45 @@
+@mixin easeOut {
+  transition: all 0.5s ease-out;
+}
+
+@keyframes spanimation1 {
+  0% {
+    color: $text-light;
+  }
+
+  100% {
+    color: $text-dark;
+  }
+}
+@keyframes spanimation2 {
+  0% {
+    margin-left: 13.5vw;
+    color: $text-light;
+  }
+
+  100% {
+    margin-left: 0;
+    color: $palette-grey;
+  }
+}
+
+@keyframes commaFlash {
+  0% {
+    color: $text-light;
+  }
+
+  50% {
+    color: $palette-tea;
+  }
+  100% {
+    color: $text-light;
+  }
+}
+@keyframes fadeIn {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translate(none);
+  }
+}

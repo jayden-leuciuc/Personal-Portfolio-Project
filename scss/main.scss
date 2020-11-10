@@ -1,5 +1,6 @@
 @import "config";
 @import "media";
+@import "animations";
 
 body {
   font-family: $primary-font;
@@ -74,7 +75,7 @@ body {
         cursor: pointer;
       }
       #comma {
-        animation: typist 1.5s ease 0s infinite;
+        animation: commaFlash 1.5s ease 0s infinite;
       }
     }
   }
@@ -126,9 +127,9 @@ body {
         visibility: hidden;
         max-height: 100%;
         position: absolute;
-
         &.show {
           visibility: visible;
+          animation: fadeIn 0.5s ease 1;
         }
       }
       .css-block {
@@ -137,6 +138,7 @@ body {
         position: absolute;
         &.show {
           visibility: visible;
+          animation: fadeIn 0.5s ease 1;
         }
       }
       .js-block {
@@ -145,6 +147,7 @@ body {
         position: absolute;
         &.show {
           visibility: visible;
+          animation: fadeIn 0.5s ease 1;
         }
       }
       .node-block {
@@ -153,6 +156,7 @@ body {
         position: absolute;
         &.show {
           visibility: visible;
+          animation: fadeIn 0.5s ease 1;
         }
       }
       .sass-block {
@@ -161,6 +165,7 @@ body {
         position: absolute;
         &.show {
           visibility: visible;
+          animation: fadeIn 0.5s ease 1;
         }
       }
       .react-block {
@@ -169,6 +174,7 @@ body {
         position: absolute;
         &.show {
           visibility: visible;
+          animation: fadeIn 0.5s ease 1;
         }
       }
       .git-block {
@@ -177,6 +183,7 @@ body {
         position: absolute;
         &.show {
           visibility: visible;
+          animation: fadeIn 0.5s ease 1;
         }
       }
       h1 {
