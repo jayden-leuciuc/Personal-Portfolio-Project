@@ -9,10 +9,12 @@ $text-dark: #1c0f13;
 $text-light: #f7f0ee;
 
 //Easy background color on the eyes to be used for the majority of background
-$background-light: #f9e0d9;
-
+$background-light: #d8d8d8;
+$background-grey: #a5a5a5;
 $background-image: url("/media/bg-blur.jpg");
 
 //Skinny font
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@250&display=swap");
 $primary-font: "Raleway", sans-serif;
+
+$crud-app-bg-img: url("/media/Crud-app-sc.png");

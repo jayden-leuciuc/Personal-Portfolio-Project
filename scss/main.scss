@@ -195,19 +195,73 @@ body {
       }
     }
   }
-  /*.projects-block {
-    background-color: lightblue;
-    height: 50vh;
-    .projects-container {
-      h1 {
-        margin: 0;
+  .projects-block {
+    background-color: $background-light;
+    height: 35rem;
+
+    h1 {
+      margin: 0;
+      padding: 2rem 0 1rem 2rem;
+      font-size: 3.5rem;
+      color: $text-light;
+    }
+    .project1 {
+      height: 23rem;
+      width: 49%;
+      background-color: black;
+      float: left;
+
+      .project-img-block-container {
+        height: 100%;
+        .project-img-block {
+          height: 100%;
+          background-image: $crud-app-bg-img;
+        }
+        :hover {
+          @include easeIn;
+          opacity: 0.5;
+        }
       }
-      max-width: 100%;
-      .project1 {
-        background-color: black;
-        height: 50vh;
-        width: 50%;
+      .button-container {
+        max-width: 100%;
+        margin: 0;
+        .source-button {
+          height: 2rem;
+          width: 50%;
+          background-color: $background-grey;
+          float: left;
+          bottom: 0;
+          margin: 0;
+          text-align: center;
+          color: $text-light;
+          font-weight: bolder;
+          margin: 0;
+          vertical-align: middle;
+        }
+        :hover {
+          opacity: 0.6;
+          cursor: pointer;
+        }
+
+        .view-button {
+          height: 2rem;
+          width: 50%;
+          background-color: $background-grey;
+          float: right;
+          bottom: 0;
+          margin: 0;
+          text-align: center;
+          color: $text-light;
+          font-weight: bolder;
+        }
+      }
+      .project-desc {
+        text-align: center;
       }
     }
-  }*/
+    .project2 {
+      @extend .project1;
+      float: right;
+    }
+  }
 }

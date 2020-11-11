@@ -30,22 +30,7 @@
 body {
   font-family: "Raleway", sans-serif;
   margin: 0;
-  padding: 0;
-  /*.projects-block {
-    background-color: lightblue;
-    height: 50vh;
-    .projects-container {
-      h1 {
-        margin: 0;
-      }
-      max-width: 100%;
-      .project1 {
-        background-color: black;
-        height: 50vh;
-        width: 50%;
-      }
-    }
-  }*/ }
+  padding: 0; }
   body .block, body .image-block {
     height: 100vh;
     max-width: 100%; }
@@ -181,3 +166,56 @@ body {
       body .tech-block .info-section p {
         padding-right: 6rem;
         font-size: 1.5rem; }
+  body .projects-block {
+    background-color: #d8d8d8;
+    height: 35rem; }
+    body .projects-block h1 {
+      margin: 0;
+      padding: 2rem 0 1rem 2rem;
+      font-size: 3.5rem;
+      color: #f7f0ee; }
+    body .projects-block .project1, body .projects-block .project2 {
+      height: 23rem;
+      width: 49%;
+      background-color: black;
+      float: left; }
+      body .projects-block .project1 .project-img-block-container, body .projects-block .project2 .project-img-block-container {
+        height: 100%; }
+        body .projects-block .project1 .project-img-block-container .project-img-block, body .projects-block .project2 .project-img-block-container .project-img-block {
+          height: 100%;
+          background-image: url("/media/Crud-app-sc.png"); }
+        body .projects-block .project1 .project-img-block-container :hover, body .projects-block .project2 .project-img-block-container :hover {
+          transition: all 0.5s ease-in;
+          opacity: 0.5; }
+      body .projects-block .project1 .button-container, body .projects-block .project2 .button-container {
+        max-width: 100%;
+        margin: 0; }
+        body .projects-block .project1 .button-container .source-button, body .projects-block .project2 .button-container .source-button {
+          height: 2rem;
+          width: 50%;
+          background-color: #a5a5a5;
+          float: left;
+          bottom: 0;
+          margin: 0;
+          text-align: center;
+          color: #f7f0ee;
+          font-weight: bolder;
+          margin: 0;
+          vertical-align: middle; }
+        body .projects-block .project1 .button-container :hover, body .projects-block .project2 .button-container :hover {
+          opacity: 0.6;
+          cursor: pointer; }
+        body .projects-block .project1 .button-container .view-button, body .projects-block .project2 .button-container .view-button {
+          height: 2rem;
+          width: 50%;
+          background-color: #a5a5a5;
+          float: right;
+          bottom: 0;
+          margin: 0;
+          text-align: center;
+          color: #f7f0ee;
+          font-weight: bolder; }
+      body .projects-block .project1 .project-desc, body .projects-block .project2 .project-desc {
+        text-align: center; }
+    body .projects-block .project2 {
+      float: right; }
