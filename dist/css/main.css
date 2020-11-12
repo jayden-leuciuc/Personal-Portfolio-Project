@@ -181,15 +181,22 @@ body {
       float: left; }
       body .projects-block .project1 .project-img-block-container, body .projects-block .project2 .project-img-block-container {
         height: 100%; }
-        body .projects-block .project1 .project-img-block-container .project-img-block, body .projects-block .project2 .project-img-block-container .project-img-block {
+        body .projects-block .project1 .project-img-block-container .project-img-block1, body .projects-block .project2 .project-img-block-container .project-img-block1 {
           height: 100%;
           background-image: url("/media/Crud-app-sc.png"); }
         body .projects-block .project1 .project-img-block-container :hover, body .projects-block .project2 .project-img-block-container :hover {
           transition: all 0.5s ease-in;
           opacity: 0.5; }
+        body .projects-block .project1 .project-img-block-container .project-img-block2, body .projects-block .project2 .project-img-block-container .project-img-block2 {
+          height: 100%;
+          background-image: url("/media/React-app-sc.png"); }
+        body .projects-block .project1 .project-img-block-container :hover, body .projects-block .project2 .project-img-block-container :hover {
+          transition: all 0.5s ease-in;
+          opacity: 0.5; }
       body .projects-block .project1 .button-container, body .projects-block .project2 .button-container {
         max-width: 100%;
-        margin: 0; }
+        margin: 0;
+        line-height: 200%; }
         body .projects-block .project1 .button-container .source-button, body .projects-block .project2 .button-container .source-button {
           height: 2rem;
           width: 50%;

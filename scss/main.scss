@@ -213,9 +213,17 @@ body {
 
       .project-img-block-container {
         height: 100%;
-        .project-img-block {
+        .project-img-block1 {
           height: 100%;
           background-image: $crud-app-bg-img;
+        }
+        :hover {
+          @include easeIn;
+          opacity: 0.5;
+        }
+        .project-img-block2 {
+          height: 100%;
+          background-image: $react-app-bg-img;
         }
         :hover {
           @include easeIn;
@@ -225,6 +233,7 @@ body {
       .button-container {
         max-width: 100%;
         margin: 0;
+        line-height: 200%;
         .source-button {
           height: 2rem;
           width: 50%;
