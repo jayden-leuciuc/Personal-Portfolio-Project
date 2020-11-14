@@ -197,7 +197,8 @@ body {
   }
   .projects-block {
     background-color: $background-light;
-    height: 35rem;
+    background-size: cover;
+    height: 110%;
 
     h1 {
       margin: 0;
@@ -210,20 +211,13 @@ body {
       width: 49%;
       background-color: black;
       float: left;
+      padding-bottom: 4rem;
 
       .project-img-block-container {
         height: 100%;
         .project-img-block1 {
           height: 100%;
-          background-image: $crud-app-bg-img;
-        }
-        :hover {
-          @include easeIn;
-          opacity: 0.5;
-        }
-        .project-img-block2 {
-          height: 100%;
-          background-image: $react-app-bg-img;
+          background-image: $cnstrct-app-bg-img;
         }
         :hover {
           @include easeIn;
@@ -266,11 +260,33 @@ body {
       }
       .project-desc {
         text-align: center;
+        margin-bottom: 1rem;
+        color: #fff;
       }
     }
     .project2 {
       @extend .project1;
       float: right;
+      .project-img-block2 {
+        height: 100%;
+        background-image: $crud-app-bg-img;
+      }
+      :hover {
+        @include easeIn;
+        opacity: 0.5;
+      }
+    }
+    .project3 {
+      @extend .project1;
+      float: left;
+      .project-img-block3 {
+        height: 100%;
+        background-image: $react-app-bg-img;
+      }
+      :hover {
+        @include easeIn;
+        opacity: 0.5;
+      }
     }
   }
 }
