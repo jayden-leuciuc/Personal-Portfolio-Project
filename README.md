@@ -7,6 +7,6 @@ Displays information about me and the projects that I have created.
 # What I learned:
 How to style elements
 # Technology used:
-Html, Css, Git
+Html, Sass, Javascript, Git
 # Hosted:
 This project is currently not hosted.
