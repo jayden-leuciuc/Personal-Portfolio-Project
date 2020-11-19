@@ -1,5 +1,12 @@
-# Personal-Portfolio-Project
-Hi! My name is Jayden Leuciuc and this is my portfolio project!
-
-This project is a simple static website that showcases my talents and skills.
-It is built using the static technologies I have learned and are comfortable with.
+# Project:
+Personal Portfolio
+# Made by:
+Me (no other contributors)
+# What it does:
+Displays information about me and the projects that I have created.
+# What I learned:
+How to style elements
+# Technology used:
+Html, Css, Git
+# Hosted:
+This project is currently not hosted.
